@@ -1,0 +1,296 @@
+---
+title: "Virtual reality"
+subtitle: "👓 Demos and applications"
+author: "Sebastian Garzon"
+institute: "GIS for society"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Activities:
+
+.pull-left[## VR demos
+<a href="https://sidequestvr.com/app/5160/yues-plank-experience">
+<img src="https://cdn.sidequestvr.com/file/117647/header-kopie-2png.png" width="220">
+</a>
+
+<a href="https://arvr.google.com/earth/">
+<img src="https://cdn.akamai.steamstatic.com/steam/apps/348250/capsule_616x353.jpg?t=1508799201" width="220">
+</a>
+]
+
+.pull-left[
+
+#Tutorials
+
+<a href="https://kuula.co/">
+<img src="https://static.kuula.io/prod/assets/logo-blue.svg" height="100">
+</a>
+# Simple coding taks
+.center[ 
+<a href="https://aframe.io">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/A-Frame_logo.png" height="120">
+</a>
+]
+]
+
+---
+
+class: center, middle
+
+# Demo time:
+
+>"Never do a live demo." 
+
+> [Many People](https://www.infoq.com/presentations/jupyter-notebook/)
+
+---
+
+class: inverse, center, middle
+
+# Demo 1
+
+.pull-left[
+<a href="https://sidequestvr.com/app/5160/yues-plank-experience">
+<img src="https://cdn.sidequestvr.com/file/117647/header-kopie-2png.png" width="500">
+</a>
+(2021) - €0.00
+]
+
+.pull-right[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4M92kfnpg-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Richie's Plank Experience 
+
+(2017) - €14.99
+]
+
+---
+
+class: inverse, center, middle
+
+# Demo 2 
+
+# 
+.pull-left[
+<a href="https://arvr.google.com/earth/">
+<img src="https://cdn.akamai.steamstatic.com/steam/apps/348250/capsule_616x353.jpg?t=1508799201">
+</a>]
+
+.pull-right[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SCrkZOx5Q1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+
+# 360 images
+
+> A 360 image for start is one that contains information on what is around you. Behind you, in front, to the left, to the right.
+.right[[Rafael (Stackexchange user)](https://photo.stackexchange.com/a/89587)]
+
+.center[<img src="https://kuula.co/content/help/assets/sample-equi.jpg" height= "300")>
+Equirectangular projection 360x180*]
+
+.footnote[[*] Photo: [Kuula](https://kuula.co/help/image-specs)]
+
+---
+
+# 360 images sources
+
+.pull-left[
+
+- 360 cameras
+
+<a href="https://truevirtualtours.com/article/best-360-cameras-2019">
+<img src="https://truevirtualtours.com/img/main.jpg" height=200>
+</a>
+
+- (Free*) Stock photos
+
+<img src="https://kuula.co/content/help/assets/sample-equi.jpg" height= "140")>]
+
+.pull-right[
+- Scientific Repositories
+
+<a href="https://truevirtualtours.com/article/best-360-cameras-2019">
+<img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-2500.png" height=200>
+</a>
+
+- Other (ideas ?)
+
+]
+.center[.footnote[[*] Always check the licence / Credit authors]]
+
+---
+
+# Virtual tours
+
+.pull-left[
+
+### Software
+- Multiple options
+
+- Freemium / License / Open Source
+
+- Discontinued Products: 
+  [Google Tour creators]("https://killedbygoogle.com") / 
+  [Panono](https://www.dpreview.com/news/3154692531/panono-no-more-360-degree-camera-maker-to-be-sold-with-only-400-cameras-delivered)
+
+.center[<a href="https://www.youtube.com/watch?v=uKkQQ0aHRSc"><img src="https://i.ytimg.com/vi/uKkQQ0aHRSc/maxresdefault.jpg" height= "200"></a>]
+]
+
+.pull-right[
+
+### Kuula.co
+
+<a href="https://kuula.co/">
+<img src="https://static.kuula.io/prod/assets/logo-blue.svg" height="100">
+</a>
+
+- One of many options
+- Freemium model
+- Easy to use
+- Advanced tools (Some free*)
+
+]
+---
+class: inverse, center, middle
+
+# Virtual tour 360
+
+<iframe width="100%" height="640" style="width: 80%; height: 80%; border: none; max-width: 100%;" frameborder="0" allowfullscreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://kuula.co/share/collection/7qWcY?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"></iframe>
+
+---
+# Virtual tour tutorial
+## Hunterian Museum Antonine + Kuula
+'This permanent gallery at the Hunterian Museum showcases the collection of spectacular monumental sculpture and other Roman artefacts.' -[Hunterian Museum](https://www.gla.ac.uk/hunterian/collections/permanentdisplays/theantoninewall/)
+
+.pull-left[
+
+.center[<a href="https://doi.org/10.5281/zenodo.3666647">
+<img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-2500.png" height=100>
+</a>]
+
+Vassilis Kourtis. (2020). 360 images of the Hunterian Museum Antonine Wall Gallery [[Data set](https://doi.org/10.5281/zenodo.3666647)]. Zenodo.*
+
+.center[
+
+<a href="https://kuula.co/">
+<img src="https://static.kuula.io/prod/assets/logo-blue.svg" height="100">
+</a>]
+
+]
+
+.pull-right[
+<a href="https://www.gla.ac.uk/hunterian/collections/permanentdisplays/theantoninewall/">
+<img src="https://www.gla.ac.uk/media/Media_532071_smxx.jpg">
+</a>
+
+[Additional resources](https://www.gla.ac.uk/media/Media_677449_smxx.pdf)
+]
+
+.center[.footnote[*[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) ]]
+
+---
+# Virtual tour example (A-frame)
+
+<a href="https://aframe.io">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/A-Frame_logo.png" height="50">
+</a> Web framework for building virtual reality experiences.
+
+```{r echo=FALSE}
+
+knitr::include_url("https://ambiguous-diploma.glitch.me")
+
+```
+
+[Developer: Kumar Ahir](https://medium.com/detaux/how-to-create-a-virtual-tour-using-a-frame-164941fea573) / [Code](https://glitch.com/edit/#!/ambiguous-diploma?path=index.html%3A1%3A0)
+---
+
+# Alternatives (?) 
+
+.center[<a href="https://aframe.io">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/A-Frame_logo.png" height="120">
+</a>
+<a href="https://unity.com">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Unity_2021.svg/1200px-Unity_2021.svg.png" height=120> </a>
+<a href="https://unrealengine.com">
+<img src="https://cdn2.unrealengine.com/ue-logo-1400x788-1400x788-8f185e1e3635.jpg" height=120>
+</a>
+
+]
+--
+
+.pull-left[ #✅ Pros
+
+- Virtual environments
+- Flexibility
+- "Free" 
+- Shareable (Less restrictions)
+]
+
+--
+.pull-left[ # ❌Cons
+- ⚠️Steep learning curve ⚠️
+-  Requires Software installation 
+-  Slow development 
+]
+--
+---
+
+# Hello VR (Simple coding task)
+
+### Steps to program your first VR experience using A-Frame
+
+- Copy the following code (Control + C / CMD + C)
+
+```{r eval=FALSE}
+
+<!--DELETE ME <!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
+-->
+
+```
+
+---
+
+# Hello VR
+
+- Remove the existing text
+- Paste the code (from last slide) 
+
+```{r echo=FALSE}
+
+knitr::include_url("https://htmledit.squarefree.com")
+
+```
+
+---
+
+# New York times + A-frame example
+
+[Research & Development at The New York Times](https://rd.nytimes.com) explores how emerging technologies can be applied in service of journalism.
+
+```{r echo=FALSE}
+
+knitr::include_url("https://nytimes.github.io/aframe-loader-3dtiles-component/examples/raysmith/")
+
+```
