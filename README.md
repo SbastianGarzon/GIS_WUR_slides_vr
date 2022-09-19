@@ -1,4 +1,4 @@
-# GIS_WUR_slides_vr
+# GIS for Society - VR
 Slides for GIS for Society (WUR-2022)
 
 Sebastian Garzon
