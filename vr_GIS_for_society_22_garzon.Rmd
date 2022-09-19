@@ -32,7 +32,7 @@ output:
 <a href="https://kuula.co/">
 <img src="https://static.kuula.io/prod/assets/logo-blue.svg" height="100">
 </a>
-# Simple coding taks
+# Simple coding task
 .center[ 
 <a href="https://aframe.io">
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/A-Frame_logo.png" height="120">
@@ -231,8 +231,7 @@ knitr::include_url("https://ambiguous-diploma.glitch.me")
 --
 .pull-left[ # ❌Cons
 - ⚠️Steep learning curve ⚠️
--  Requires Software installation 
--  Slow development 
+- Requires Software installation 
 ]
 --
 ---
